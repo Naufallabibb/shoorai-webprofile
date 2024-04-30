@@ -1,5 +1,8 @@
-# Halo, ini adalah projek website saya berjudul "Shoorai - Digital Agency"
-## Semoga bisa menjadi referensi belajar kalian. Terima kasih.
+# :computer: Halo, ini adalah projek website saya berjudul "Shoorai - Digital Agency"
+
+![Technology GIF](https://media.giphy.com/media/LHZyixOnHwDDy/giphy.gif)
+
+## :bulb: Semoga bisa menjadi referensi belajar kalian. Terima kasih.
 
 ### Home
 ![Screenshot (12794)](https://github.com/Naufallabibb/shoorai-webprofile/assets/88694667/160c0e1f-cfdd-4d0b-b90a-0c7153f82b02)
