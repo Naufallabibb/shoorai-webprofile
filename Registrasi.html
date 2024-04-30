@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="Registrasi.css" />
+      <meta charset="UTF-8">
+      <title>valid</title>
+    </head>
+  <body>
+    <div class="login-box">
+      <h2>Registration</h2><br>
+        <form name="fform" method="post" action="" onSubmit="return validasi_data(this)">
+            <div class="user-box">
+                <input type="text" name="name" id="name" >
+                <label>Name</label>
+            </div>
+            <div class="user-box">
+                  <input type="email" name="email" id="email" >
+                  <label>E-mail</label>
+            </div>
+            <div class="user-box">
+              <input type="text" name="agency" id="agency" >
+              <label>Agency origin</label>
+        </div>
+            <div class="user-box">
+                  <input type="text" name="profession" id="profession" >
+                  <label>Profession</label>
+            </div>
+            <div class="user-box">
+                <input type="date" name="date" id="date" >
+                <label>Registration date</label>
+            </div>
+          <center><input id="submit-btn" name="" type="submit" value="Process" onSubmit="return validasi_data(this)"></center>
+        </div>
+    </body>
+      <script languange ="JavaScript">
+        function validasi_data(fform) { 
+          if(fform.name.value==""){
+            alert('Name is required!');
+            fform.name.focus();
+            return false;
+          } 
+          if (fform.email.value=="") {
+            alert('E-mail must be filled in!');
+            fform.email.focus();
+            return false;
+          }
+          if (fform.agency.value=="") {
+            alert('Origin of the institution must be filled!');
+            fform.agency.focus();
+            return false;
+          }
+          if (fform.profession.value=="") {
+            alert('Job must be filled!');
+            fform.profession.focus();
+            return false;
+          }
+            if(fform.date.value=="") {
+            alert('Date must be filled!');
+            fform.date.focus();
+            return false;
+          }
+        }
+      </script>
+  </html>
